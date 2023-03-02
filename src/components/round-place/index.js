@@ -1,8 +1,8 @@
 import React from "react";
 import "./Styles.RoundPlace.css";
 
-const index = () => {
-  return <div>index</div>;
+const RoundPlace = () => {
+  return <div>RoundPlace</div>;
 };
 
-export default index;
+export default RoundPlace;
