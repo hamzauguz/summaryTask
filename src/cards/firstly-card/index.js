@@ -1,11 +1,12 @@
 import React from "react";
+import RoundPlace from "../../components/round-place";
 import "./Styles.FirstlyCard.css";
 
 const FirstlyCard = () => {
   return (
     <div className="first-card">
-      <h4>Your Result</h4>
-      <p>Round</p>
+      <h3 className="result-text">Your Result</h3>
+      <RoundPlace />
       <h5>Greate</h5>
       <p>description</p>
     </div>

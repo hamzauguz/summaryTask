@@ -1,0 +1,8 @@
+.round-place {
+  background-color: hsla(256, 72%, 46%, 1);
+  background: linear-gradient(to top, hsla(256, 72%, 46%, 1), #6d60e4);
+  width: 10em;
+  height: 10em;
+  margin: 0 auto;
+  border-radius: 5em;
+}
