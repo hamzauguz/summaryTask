@@ -1,0 +1,22 @@
+@media screen and (max-width: 800px) {
+  .first-card {
+    border-radius: 0 !important;
+    border-end-end-radius: 1.5em !important;
+    border-end-start-radius: 1.5em !important;
+  }
+}
+
+.first-card {
+  background: linear-gradient(
+    to top,
+    #4936f2,
+    #6d60e4
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  flex: 1;
+  height: auto;
+  border-radius: 2em;
+  width: 20em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
