@@ -5,7 +5,7 @@
 }
 
 .main-card {
-  width: 50%;
+  width: auto;
   margin: 0 auto;
   height: 30em;
   display: flex;
@@ -14,6 +14,7 @@
   border-radius: 2em;
   overflow: hidden;
   background-color: white;
+  text-align: center;
 }
 
 .first-card {
@@ -21,8 +22,16 @@
   flex: 1;
   height: auto;
   border-radius: 2em;
+  width: 20em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 .secondly-card {
   background-color: #fff;
+  width: 20em;
   flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
