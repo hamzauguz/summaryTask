@@ -23,10 +23,19 @@
     border-end-start-radius: 1.5em !important;
     width: 19em !important;
     height: 50% !important;
-    justify-content: space-evenly;
+    justify-content: space-evenly !important;
   }
   .result-text {
     font-size: 0.9em;
+  }
+  .description-card {
+    font-size: 0.8em !important;
+    width: 80% !important;
+    margin-bottom: 1.5em !important;
+  }
+  .great-title {
+    font-size: 1.7em !important;
+    margin-bottom: 1em;
   }
 }
 
