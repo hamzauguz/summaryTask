@@ -7,7 +7,20 @@
   background-color: #fff;
   width: 20em;
   flex: 1;
+}
+.secondly-inside {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
+  background-color: rgb(183, 148, 148);
+  width: 75%;
+  height: 100%;
+  margin: 0 auto;
+  text-align: start;
+}
+
+.secondly-title {
+  margin-top: 1.5em;
+  opacity: 0.7;
+  font-size: 1.4em;
 }
