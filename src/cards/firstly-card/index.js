@@ -8,7 +8,7 @@ const FirstlyCard = () => {
       <h3 className="result-text">Your Result</h3>
       <RoundPlace />
       <h5>Greate</h5>
-      <p>description</p>
+      <p>You scored higher than 65% of the people who have taken there tests</p>
     </div>
   );
 };

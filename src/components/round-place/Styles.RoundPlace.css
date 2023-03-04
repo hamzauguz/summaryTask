@@ -1,8 +1,57 @@
+:root {
+  --Light_red: hsl(0, 100%, 67%);
+  --Orangey_yellow: hsl(39, 100%, 56%);
+  --Green_teal: hsl(166, 100%, 37%);
+  --Cobalt_blue: hsl(234, 85%, 45%);
+
+  --Light_slate_blue: hsl(252, 100%, 67%);
+  --Light_royal_blue: hsl(241, 81%, 54%);
+
+  --Violet_blue: hsla(256, 72%, 46%, 1);
+  --Persian_blue: hsla(241, 72%, 46%, 0);
+
+  --White: hsl(0, 0%, 100%);
+  --Pale_blue: hsl(221, 100%, 96%);
+  --Light_lavender: hsl(241, 100%, 89%);
+  --Dark_gray_blue: hsl(224, 30%, 27%);
+}
+
 .round-place {
-  background-color: hsla(256, 72%, 46%, 1);
-  background: linear-gradient(to top, hsla(256, 72%, 46%, 1), #6d60e4);
-  width: 10em;
-  height: 10em;
-  margin: 0 auto;
-  border-radius: 5em;
+  background-color: var(--Violet_blue);
+  background: linear-gradient(
+    to top,
+    var(--Light_royal_blue),
+    var(--Violet_blue)
+  );
+  width: 12em;
+  height: 12em;
+  margin: auto;
+  border-radius: 6em;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 800px) {
+  .round-place {
+    width: 8em;
+    height: 8em;
+  }
+  .point-result {
+    font-size: 2.5em !important;
+  }
+  .hundred-place {
+    margin-top: -1em !important;
+    font-weight: 400;
+    font-size: 0.8em !important;
+  }
+}
+
+.point-result {
+  font-size: 4.2em;
+}
+
+.hundred-place {
+  margin-top: -2.5em;
+  opacity: 0.4;
+  font-weight: bold;
 }

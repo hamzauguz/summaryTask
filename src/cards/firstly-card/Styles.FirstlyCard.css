@@ -21,6 +21,12 @@
     border-radius: 0 !important;
     border-end-end-radius: 1.5em !important;
     border-end-start-radius: 1.5em !important;
+    width: 19em !important;
+    height: 50% !important;
+    justify-content: space-evenly;
+  }
+  .result-text {
+    font-size: 0.9em;
   }
 }
 
