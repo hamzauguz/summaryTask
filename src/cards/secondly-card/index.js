@@ -1,4 +1,5 @@
 import React from "react";
+import InfoCard from "../../components/info-card";
 import "./Styles.SecondlyCard.css";
 
 const SecondlyCard = () => {
@@ -6,7 +7,9 @@ const SecondlyCard = () => {
     <div className="secondly-card">
       <div className="secondly-inside">
         <h2 className="secondly-title">Summary</h2>
-        <div>cards</div>
+        <div>
+          <InfoCard />
+        </div>
         <span>button</span>
       </div>
     </div>
