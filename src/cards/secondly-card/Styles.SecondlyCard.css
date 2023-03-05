@@ -24,6 +24,9 @@
     font-size: 0.9em;
     font-weight: bold;
   }
+  .secondly-inside {
+    width: 85% !important;
+  }
 }
 .secondly-card {
   background-color: #fff;
