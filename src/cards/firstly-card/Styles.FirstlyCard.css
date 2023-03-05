@@ -27,15 +27,17 @@
   }
   .result-text {
     font-size: 0.9em;
+    margin-top: 3em !important;
   }
   .description-card {
     font-size: 0.8em !important;
     width: 80% !important;
-    margin-bottom: 1.5em !important;
+    margin-bottom: 2.5em !important;
   }
   .great-title {
-    font-size: 1.7em !important;
-    margin-bottom: 1em;
+    font-size: 1.3em !important;
+    margin-bottom: 1.5em;
+    font-weight: 500;
   }
 }
 

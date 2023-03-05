@@ -33,14 +33,14 @@
 
 @media screen and (max-width: 800px) {
   .round-place {
-    width: 8em;
-    height: 8em;
+    width: 7em;
+    height: 7em;
   }
   .point-result {
     font-size: 2.5em !important;
   }
   .hundred-place {
-    margin-top: -1em !important;
+    margin-top: -1.5em !important;
     font-weight: 400;
     font-size: 0.8em !important;
   }
