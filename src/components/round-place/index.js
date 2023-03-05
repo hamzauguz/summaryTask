@@ -4,8 +4,8 @@ import "./Styles.RoundPlace.css";
 const RoundPlace = () => {
   return (
     <div className="round-place">
-      <h1>76</h1>
-      <h4>of 100</h4>
+      <h1 className="point-result">76</h1>
+      <p className="hundred-place">of 100</p>
     </div>
   );
 };
