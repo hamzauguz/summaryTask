@@ -9,5 +9,59 @@
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  text-align: start;
+}
+
+.secondly-title {
+  margin-top: 1.5em;
+  opacity: 0.7;
+  font-size: 1.4em;
+  flex: 0.3;
+}
+
+.card1 {
+  background-color: #fff6f6;
+}
+
+.card1-title {
+  color: #dd7478;
+}
+
+.card2 {
+  background-color: #fffbf2;
+}
+
+.card2-title {
+  color: #dfb660;
+}
+
+.card3 {
+  background-color: #f3fafb;
+}
+
+.card3-title {
+  color: #65b7a8;
+}
+
+.card4 {
+  background-color: #f3f3fd;
+}
+
+.card4-title {
+  color: #4448af;
+}
+
+.secondly-center {
+  flex: 2.5;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.secondly-button {
+  flex: 1;
 }
