@@ -1,5 +1,45 @@
 .infocard-place {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  border-radius: 0.6em;
+  overflow: hidden;
+  height: 3em;
+}
+
+.infocard-left {
+  width: 60%;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0.5em;
+}
+
+.infocard-right {
+  width: 3.8em;
+  margin-left: 1em;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 1em;
+}
+
+.icon-name {
+  font-size: 1.1em;
+  font-weight: 600;
+  opacity: 0.6;
+  text-align: start;
+  width: 90%;
+  margin-left: 0.5em;
+}
+
+.count-p {
+  font-weight: 600;
+  opacity: 0.8;
+}
+
+.percent-right {
+  opacity: 0.5;
+  font-weight: 600;
   justify-content: space-around;
 }
