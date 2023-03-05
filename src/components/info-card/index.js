@@ -12,8 +12,6 @@ const InfoCard = ({ icon, title, percent, infocardClass, titleClass }) => {
         <span className="count-p">{percent}</span>
         <span className="percent-right">/ 100</span>
       </div>
-    </div>
-  );
-};
+
 
 export default InfoCard;

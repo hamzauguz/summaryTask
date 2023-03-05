@@ -41,4 +41,5 @@
 .percent-right {
   opacity: 0.5;
   font-weight: 600;
+  justify-content: space-around;
 }

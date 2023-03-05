@@ -54,7 +54,7 @@ const SecondlyCard = () => {
           ))}
         </div>
         <span className="secondly-button">button</span>
-      </div>
+       
     </div>
   );
 };
